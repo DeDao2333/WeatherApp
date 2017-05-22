@@ -192,11 +192,7 @@ public class ChooseAreaActivity extends Activity {
         progressDialog.show();
     }
 
-    private void closeProgressDialog() {
-        if (progressDialog != null) {
-            progressDialog.dismiss();
-        }
-    }
+   
 
     @Override
     public void onBackPressed() {
